@@ -91,6 +91,9 @@ target/
 # Jupyter Notebook
 .ipynb_checkpoints
 
+
+migrations/
+
 # IPython
 profile_default/
 ipython_config.py

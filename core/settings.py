@@ -113,10 +113,16 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticroot')
+
 MEDIA_URL = '/media/'
+
 MEDIA_ROOT = os.path.join(BASE_DIR, 'mediafiels')
 
+AUTH_USER_MODEL = 'authentication.User'
 
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'static'),
 ]
+
+# 
+LOGIN_REDIRECT_URL = 'home'
